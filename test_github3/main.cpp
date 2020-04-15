@@ -13,7 +13,7 @@ int main(int argc, char** argv) {
 	//判断是否成功读入
 	if (src.empty())
 	{
-		printf("could not load image...");
+		printf("could not load image...123");
 		return -1;
 	}
 	imshow("inputImage", src);
